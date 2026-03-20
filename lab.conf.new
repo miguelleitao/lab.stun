@@ -1,0 +1,30 @@
+# STUN/TURN lab
+#
+# ISEP, 2026
+# 
+
+LAB_DESCRIPTION=STUN/TURN lab
+LAB_VERSION=20260219
+
+hostC[0]=A
+
+hostA1[0]=netA
+hostA2[0]=netA
+hostA3[0]=netA
+
+host11[0]=netB
+host12[0]=netB
+host13[0]=netB
+
+RA[0]=netA
+RA[1]=internet
+RB[0]=netB
+RB[1]=internet
+
+hostI[0]=internet
+stun[0]=internet
+
+
+
+
+

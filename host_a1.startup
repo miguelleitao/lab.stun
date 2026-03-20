@@ -1,0 +1,5 @@
+ifconfig eth0 10.0.10.1/24
+route add -net 0.0.0.0/0 gw 10.0.10.254
+#python3 peer3.py offer
+
+

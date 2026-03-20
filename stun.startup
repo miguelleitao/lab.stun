@@ -1,0 +1,4 @@
+ifconfig eth0 203.0.113.99/24
+route add -net 0.0.0.0/0 gw 203.0.113.254
+turnserver -c /etc/turnserver.conf -v > /var/log/turnserver.stdout 2>&1 &
+

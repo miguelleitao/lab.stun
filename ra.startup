@@ -1,0 +1,7 @@
+ifconfig eth0 10.0.10.254/24
+ifconfig eth1 203.0.113.10/24
+route add -net 0.0.0.0/0 gw 203.0.113.254
+#iptables -t nat -A POSTROUTING -o eth1 -j MASQUERADE
+iptables -t nat -A POSTROUTING -o eth1  -j SNAT --to-source      203.0.113.10
+iptables -t nat -A PREROUTING  -i eth1  -j DNAT --to-destination 10.0.10.254
+

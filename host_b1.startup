@@ -1,0 +1,4 @@
+ifconfig eth0 10.0.11.1/24
+route add -net 0.0.0.0/0 gw 10.0.11.254
+#python3 peer3.py answer
+

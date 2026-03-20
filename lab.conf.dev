@@ -1,0 +1,50 @@
+# Brigde-demo
+#
+# Mesh demo
+#
+# ISEP, 2026
+# 
+
+LAB_DESCRIPTION=Mesh demo
+LAB_VERSION=20260219
+
+host_a1[0]=netA
+host_a1[1]=link1
+host2[0]=link2
+
+host3[0]=link3
+host4[0]=link4
+host5[0]=link5
+
+host6[0]=link6
+host7[0]=link7
+host8[0]=link8
+
+host0[image]='miguelleitao/iot-device:latest'
+host_A[image]='miguelleitao/iot-device:latest'
+host2[image]='miguelleitao/iot-device:latest'
+host3[image]='miguelleitao/iot-device:latest'
+host4[image]='miguelleitao/iot-device:latest'
+host5[image]='miguelleitao/iot-device:latest'
+host6[image]='miguelleitao/iot-device:latest'
+host7[image]='miguelleitao/iot-device:latest'
+host8[image]='miguelleitao/iot-device:latest'
+
+bridge[0]=link0
+bridge[1]=link1
+bridge[2]=link2
+
+bridge[3]=link3
+bridge[4]=link4
+bridge[5]=link5
+
+bridge[6]=link6
+bridge[7]=link7
+bridge[8]=link8
+
+bridge[image]='miguelleitao/bridge-isep:latest'
+bridge[terminal]=false
+
+
+
+
