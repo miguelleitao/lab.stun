@@ -1,2 +1,2 @@
 # lab.stun
-STUN and TURN lab setp using Kathara
+STUN and TURN lab setup using Kathara
